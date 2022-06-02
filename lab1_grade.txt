@@ -1,0 +1,6 @@
+Grade: 71/100
+
+Comments:
+Username and chatts are not aligned: -2
+Folder structure not following the submission guideline: -2
+Late submission: -25
