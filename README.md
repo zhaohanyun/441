@@ -1,0 +1,3 @@
+chatter文件夹内为后端。在服务器上路径为/home/admin/VE441server/441/chatter
+
+lab* 文件夹内为前端，内有一个文件夹kotlinChatter为andriod studio工程文件夹。lab1中文件夹结构做错了，没有kotlinChatter，lab1直接就为工程文件夹
