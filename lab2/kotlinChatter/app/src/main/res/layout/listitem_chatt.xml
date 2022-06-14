@@ -39,4 +39,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+    <ImageView
+        android:id="@+id/chattImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/chattImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageTextView"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageButton
+        android:id="@+id/videoButton"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/video"
+        app:layout_constraintEnd_toEndOf="@+id/timestampTextView"
+        app:layout_constraintTop_toBottomOf="@+id/timestampTextView"
+        app:srcCompat="@android:drawable/ic_menu_slideshow" />
 </androidx.constraintlayout.widget.ConstraintLayout>
